@@ -1,0 +1,468 @@
+/* Header section */
+
+.Abutton {
+  color: white;
+  border: solid silver 1px;
+  border-radius: 5px;
+  padding: 12px;
+  background-color: #0077B6;
+  cursor: pointer; /* Set cursor to pointer when button is not disabled */
+}
+
+.Abutton:disabled {
+  opacity: 0.5; /* Set opacity to 0.5 (half-transparent) when button is disabled */
+  cursor: default; /* Set cursor to default when button is disabled */
+  pointer-events: none; /* Disable pointer events on the button */
+}
+
+.Abutton:hover {
+  background-color: #03045E;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+   margin: auto;
+  
+  }
+  
+  header div {
+    margin-top: 0.5rem;
+   
+  }
+  
+  header .WLogo{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .headerb{
+    margin-top: 60px;
+  }
+  
+  .headert{
+    margin-top: 10px;
+  }
+  
+  header div a {
+    background-color: #0077B6;
+    color: white;
+    padding: 0.625rem 1.25rem;
+    border: none;
+    border-radius: 0.313rem;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  header div a:nth-child(1) {
+    margin-right: 0.25rem;
+  }
+  
+      
+      
+      /* Card section */
+      main{
+       margin-left: 1rem;
+       
+      }
+      .Cards {
+       display: inline-flex;
+       margin: auto;
+       padding-right: 1.7rem;
+       
+       
+      }
+      
+      .Cards div:hover {
+       color:#0077B6;
+      }
+      .Cards a {
+       color: rgb(0, 248, 99);
+       background-color: rgb(0, 248, 99);
+       font-size: 1.00rem;
+      }
+  
+      .Cards p{
+        font-size: 2.00rem;
+      }
+  
+      .Cards h4{
+        text-align: center;
+      color:#0077B6;
+      }
+      
+      .QCard {
+       display: inline-block;
+       width: 350px;
+       height: 350px;
+       margin: 2rem 3% 0;
+       padding: 1rem;
+       border: solid rgb(226, 218, 218) 2px;
+       border-radius: 5px;
+       box-shadow: 1px 1px 5px black;
+       text-align: center;
+       
+      }
+      
+      .QCard img {
+       width: 60%;
+       height: auto;
+      }
+      
+      .QCard h4 {
+       font-size: 1.60rem;
+       padding: 0.5rem;
+       font-weight: bold;
+       align-items: center;
+       text-align: center;
+      }
+      
+      .QCard hr {
+       margin: 0 3px;
+       color: rgb(0, 248, 99);
+      }
+      
+      
+      .QCard p {
+       font-size: 2.00rem;
+       padding-left: 0.5rem;
+       text-align: left;
+       font-weight: bold;
+      }
+      
+      .QCard a {
+       display: inline-block;
+       padding: 0.5rem;
+       text-decoration: none;
+       border: solid rgb(31, 220, 110) 1px;
+       border-radius: 7px;
+       background-color: rgb(0, 248, 99);
+       color: rgb(31, 220, 110);
+       font-size: 1.00rem;
+      }
+      
+      .QCards div:hover {
+       color: rgb(84, 146, 180);
+      }
+      
+  
+  /* Search bar section */
+  
+  
+  
+  /* Footer section */
+  footer {
+    width: 100%;
+    border-top: solid lightslategrey 1px;
+    background-color: lightslategray;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  footer a {
+    display: inline-block;
+    padding: 1%;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.8rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Card section */
+  main{
+    margin-left: 1rem;
+  }
+  .Cards {
+    display: inline-flex;
+    margin: auto;
+    padding-right: 1.7rem;
+  }
+  
+  .QCard {
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    margin: 2rem 3% 0;
+    padding: 1rem;
+    border: solid gray 2px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    text-align: center;
+    
+  }
+  
+  .QCard img {
+    width: 60%;
+    height: auto;
+  }
+  
+  .QCard p {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+  }
+  
+  .QCard hr {
+    margin: 0 3px;
+    color: darkgray;
+  }
+  
+  .QCard p, h4 {
+    padding-left: 0.5rem;
+    text-align: left;
+  }
+  
+  .QCard a {
+    display: inline-block;
+    padding: 0.5rem;
+    text-decoration: none;
+    border: solid silver 1px;
+    border-radius: 7px;
+    background-color: darkgray;
+    color: white;
+    font-size: 0.8rem;
+  }
+  
+  
+  /* Media queries */
+  @media only screen and (max-width: 767px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem;
+    }
+    
+    header div {
+      margin-top: 0.5rem;
+    }
+    
+    nav {
+      margin: 0.5rem 1%;
+      padding-left: 0.9rem;
+    }
+    
+    nav div {
+      margin: 1rem 0 0;
+      display: block;
+      margin-left: 0.5;
+      padding-left: 0.8rem;
+    }
+    
+    .Cards {
+      margin: 1rem 1rem 0.5rem 0;
+      display: block;
+      
+    }
+    
+    .QCard {
+      width: 100%;
+      margin: 2rem 0 0;
+      height: auto;
+      
+    }
+    
+    .QCard img {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    header {
+      padding: 0.5rem;
+    }
+  
+    header div {
+      margin-top: 1rem;
+  
+    }
+    
+    nav {
+      margin: 0.5rem 2%;
+      padding-left: 1rem;
+    }
+    
+    nav div {
+      margin-left: 10%;
+    }
+    
+    .Cards {
+      margin: 1rem 1rem 0  ;
+      width: 39%;
+      height: auto;
+      padding-left: 1rem;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 1024px) {
+  
+    .Cards {
+      margin: 1rem 1rem 0;
+      width: 27%;
+      
+      
+    }
+    
+    .QCard {
+      width: 100%;
+      margin: 2rem 0 0;
+      height: auto;
+    }
+    
+    .QCard img {
+      width: 100%;
+    }
+  }
+  
+  .LoginLogo{
+    height: 12%;
+    width: 12%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .logInBox{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    height: 300px;
+    width: 350px;
+    border: solid silver 1px;
+    border-radius: 5px;
+    display: block;
+    box-shadow: 3px 3px 10px gray;
+  }
+  
+  .Loginsb{
+    background-color: #0077B6;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    border: solid lightgray 1px;
+    box-shadow: 1px 1px 5px #ccc;
+    border-radius: 5px;
+  }
+  .Loginsb:hover{
+    background-color:  #03045E;
+  }
+  /* .Loginb{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 100px;
+    background-color: rgb(236, 234, 234);
+    text-decoration: none;
+    border: solid lightgrey 1px;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+  } */
+  
+  .tbox{
+    display: block;
+              width: 100%;
+              padding: 10px;
+              margin-bottom: 20px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+        box-shadow:1px 1px 5px #ccc;
+  }
+  
+  .rbox{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .rinput{
+        display: block;
+              width: 100%;
+              padding: 10px;
+              margin-bottom: 20px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+        box-shadow:1px 1px 5px #ccc;
+  }
+
+  
+  
+  .rbutton{
+    color: white;
+    border: solid silver 1px;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: #0077B6;
+  }
+  
+  .rbutton:hover{
+    background-color:  #03045E;
+  }
+  
+  .notLoginMain{
+      min-height: 500px;
+      padding-left: 30px;
+  }
+  
+  
+  .profileMain{
+    display: flex;
+    padding-left:30px;
+    border: 0.063rem solid #ccc;
+    border-radius: 0.313rem;
+    margin: 20px 20px 20px 5px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .Bdiv{
+    flex: 1;
+  }
+  .editProB{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color:cadetblue;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  .editProB:hover {
+    background-color:darkcyan;
+  }
+  
+  .Tdiv{
+    flex: 2;
+  }
+  
+  .btn {
+    text-decoration: none;
+    background-color: #0077B6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color:#0077B6;
+  }
+
+
+
