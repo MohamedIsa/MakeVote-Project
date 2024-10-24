@@ -2,6 +2,10 @@
 
 This is an OpenSource Web Application
 
+<p align="center">
+  <img src="img/MakeVote.png" alt="make">
+</p>
+
 # Mission Statement
 
 Makevote App: MakeVote is an open source web application for simply and easily creating polls on the spot This is the portal for user sign in and to create a design inspired poll with option count, real time tracker or timer based completion. Polls: Logged-in users can take part in polls, and vote for them, they will be able to see the results happening real time while logged-out/guest users show up only final end poll results. MakeVote promotes collaborative development by being easily extended and open to developer contributions, yet it remains simple enough that any person in a community can contribute.
